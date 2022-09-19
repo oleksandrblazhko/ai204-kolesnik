@@ -1,0 +1,3 @@
+### Бачення програмного продукту
+
+**FOR** adolescent citizens with average income **WHO** have needs for getting the information about available accomodation and eating establishments and bars near museums or monuments **THE** CosyCulture **IS** a multi-platform software **THAT** allows users to look for accomodation or eating options near cultural sites and museums **UNLIKE** other software products or mobile applications, for example DrinkApp, SevenRooms or TripAdvisor, that focus on fulfilling single specific needs **OUR** product provides a combination of individual elements of functionality
