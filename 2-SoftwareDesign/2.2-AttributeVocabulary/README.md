@@ -103,12 +103,12 @@
         </tr>
         <tr>
             <td>address</td>
-            <td>Адреса житла</td>
+            <td>Адреса закладу</td>
             <td>текст</td>
             <td>Від 5 до 25 символів</td>
         </tr>
         <tr>
-            <td>size</td>
+            <td>menu</td>
             <td>Меню закладу</td>
             <td>menu</td>
             <td></td>
@@ -154,7 +154,7 @@
         <tr>
             <td rowspan="3">plan</td>
             <td>interests</td>
-            <td>Назва позиції меню</td>
+            <td>Інтереси</td>
             <td>текст</td>
             <td>Щонайменш 5 символів</td>
         </tr>
