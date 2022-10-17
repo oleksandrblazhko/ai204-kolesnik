@@ -44,7 +44,7 @@ CREATE TABLE roles_privileges(
 CREATE TABLE user(
 	id_user INT PRIMARY KEY,
 	role_id INT REFERENCES role(id_role),
-	full_name VARCHAR CHECK(char_length(full_name) >= 5),
+	full_name VARCHAR CHECK(char_length(full_name) >= 5 AND full_name ~* '([A-Z]{1}[a-z]+)|([А-Я]{1}[а-я]+)'),
 	user_name VARCHAR NOT NULL,
 	user_balance DECIMAL(10, 2) CHECK(user_balance >= 0),
 	subscription_id INT REFERENCES subscription(id_subscription)
