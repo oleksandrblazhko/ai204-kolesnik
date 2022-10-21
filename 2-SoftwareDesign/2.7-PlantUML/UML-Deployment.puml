@@ -1,0 +1,21 @@
+@startuml
+title UML-діаграма розгортання PL-рівня ПП
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<Настільний комп'ютер>>" as pc {
+	node "<<OS Windows>>" {
+		node "<<Веб-навігатор>>" {
+			component [.js (React)]
+		}
+	}
+}
+
+interface "клавіатура"
+interface "маніпулятор "миша""
+
+(клавіатура) -- pc
+(маніпулятор "миша") -- pc
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+title Concept Classes Diagram 
+
+Class User
+Class Subscription
+Class Plan
+
+User"1" -- "*"Subscription: chooses >
+Subscription"1" *-- "*"Plan: has
+@enduml
