@@ -1,0 +1,26 @@
+@startuml
+title Example of Relation Schema
+
+hide circle
+
+entity "Subscription" as sub {
+    (PK) id_subscription
+    --
+    name
+    plan
+}
+
+entity "User" as ur {
+    (PK) id_user
+    --
+    role
+    name
+    username
+    balance
+    (FK) subscription_id
+    accomodation
+    restaurant
+}
+
+sub --{ ur
+@enduml
