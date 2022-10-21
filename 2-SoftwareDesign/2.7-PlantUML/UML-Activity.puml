@@ -1,0 +1,19 @@
+@startuml
+title Activity Diagram of InteractiveMap.getMap() method
+
+start
+
+:The program displays a map to the user and offers to choose a location; 
+
+if (Was map loaded?) then (yes)
+    if (Were any filters set?) then (yes)
+      :Loading results;
+    else (no)
+      :No filters set. Try them out to find what you need;
+    endif
+else (no)
+  :Something went wrong with the map, try again later;
+endif
+
+stop
+@enduml
