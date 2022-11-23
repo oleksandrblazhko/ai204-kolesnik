@@ -1,0 +1,5 @@
+|NFR id|Test Case id|Опис кроків тестового сценарію|Опис очікуваних результатів|
+|:-:|:-:|:-|:-:|
+|NFR1.1|TC1.5|Початкові умови: відсутні. <br> Кроки сценарію: Натиснуто кнопку "Редагувати"|Екранна форма: <br> ![image](https://github.com/oleksandrblazhko/ai204-kolesnik/blob/laboratory-work-8/2-SoftwareDesign/2.8-TestCases/images/tc1_5.png?raw=true)
+|NFR1.1|TC1.6|Початкові умови: успішно пройдено TC1.5. <br> Кроки сценарію: <br> 1) В поле, підписане «Інтереси:» введено рядок «середньовіччя, європейська кухня» <br> 2) В поле, підписане "Стать:" введено значення «Будь-хто» <br> 3) В полі, підписаному "Вартість" відрегульовано значення вартості просування «100»|Екранна форма: <br> ![image](https://github.com/oleksandrblazhko/ai204-kolesnik/blob/laboratory-work-8/2-SoftwareDesign/2.8-TestCases/images/tc1_6.png?raw=true)
+|NFR1.1|TC1.7|Початкові умови: успішно пройдено TC1.6. <br> Кроки сценарію: <br> 1) Натиснуто кнопку «Підтвердити»|Екранна форма: <br> ![image](https://github.com/oleksandrblazhko/ai204-kolesnik/blob/laboratory-work-8/2-SoftwareDesign/2.8-TestCases/images/tc1_7.png?raw=true)
